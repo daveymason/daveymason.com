@@ -93,6 +93,134 @@
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
+
+/*Cards*/
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 70vh;
+  overflow: hidden;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  border-radius: 50px;
+  cursor: ew-resize;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  -webkit-transition: all 700ms ease-in;
+}
+
+.panel a {
+  color: whitesmoke;
+}
+
+.panel p {
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 1%;
+  margin: 0;
+  opacity: 0;
+  color: black;
+  text-align: center;
+  align-items: center;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active p {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.849);
+  z-index: 2;
+  cursor: alias !important;
+  margin: 2%;
+  padding: 2%;
+}
+
+@media (max-width: 480px) {
+  .cardContainer {
+    width: 100vw;
+    margin-left: 0! important; 
+  }
+  .panel:nth-of-type(3),
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+
+/*Websites Slider*/
+
+.websiteSlider {
+  background: rgba(255, 255, 255, 0);
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  /* box-shadow:  0 5px 15px rgba(0, 0, 0, 0.1); */
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+#site-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  object-fit: cover;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 780px) {
+  #site-img {
+    width: 100%; 
+  }
+}
+@media (min-width: 781px) {
+  #site-img {
+    width: 50%; 
+  }
+}
+
+#title {
+  margin: 1rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+#info {
+  margin-bottom: 0.75rem;
+}
+.btn-link{
+  border: none;
+  padding: 0 !important;
+  border-radius: 15%;
+}
+.prev-btn,
+.next-btn {
+  color: #0000ff;
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: hsl(205, 79%, 60%);
+}
+
 /* Davey */
 body {
   margin: 0;
