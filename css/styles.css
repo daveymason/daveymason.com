@@ -118,7 +118,6 @@
 .cardContainer {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   height: 70vh;
   overflow: hidden;
 }
@@ -168,7 +167,7 @@
 
 @media (max-width: 480px) {
   .cardContainer {
-    width: 100vw;
+    width: 95vw;
     margin-left: 0 !important;
   }
   .panel:nth-of-type(3),
