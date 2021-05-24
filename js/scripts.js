@@ -21,7 +21,7 @@ const websites = [
       id: 1,
       title: "Terrific Taiyuan",
       img:
-        "https://daveymason.com/wp-content/uploads/2021/04/TerrificTaiyuanResponsive.png",
+        "./assets/img/TerrificTaiyuanResponsive.png",
       text:
         "The go-to guide for English speakers living in, moving to or visiting Taiyuan city. This site lists and categorises bars, restaurants, services and highlights some of the best sightseeing locations in the city. It was important for the local businesses to have a presence on Google.",
       link:
@@ -31,7 +31,7 @@ const websites = [
       id: 2,
       title: "Good Day Cork",
       img:
-        "https://daveymason.com/wp-content/uploads/2021/04/GDCResponsive-1.png",
+        "./assets/img/GDCResponsive-1.png",
       text:
         "Good Day Cork is a positive news subscription site with multiple subscriptions with varying levels of access. This site using the Strip payment gateway and allows the owner to easily access membership levels. Completely rebuilt from an old Wix site on Wordpress.",
       link:
@@ -41,7 +41,7 @@ const websites = [
       id: 3,
       title: "BigPix Media",
       img:
-        "https://daveymason.com/wp-content/uploads/2021/04/BigPixResponsive.png",
+        "./assets/img/BigPixResponsive.png",
       text:
         "BigPix Media is an advertising company that uses a large screen to advertise to a large amount of people. It was critical that the owners could update their site and use it as a hub for communication driving people too and from their existing social media accounts.",
       link:
@@ -51,7 +51,7 @@ const websites = [
       id: 4,
       title: "SERVE - Solidarity In Action",
       img:
-        "https://daveymason.com/wp-content/uploads/2021/04/ServeResponsive.png",
+        "./assets/img/ServeResponsive.png",
       text:
         "SERVE is a development and volunteering organisation committed to tackling poverty in the majority world. I designed and developed their e-commerce store using WooCommerce, decreasing their site loading time from 7 seconds down to under 1 second.  ",
       link:
