@@ -1,0 +1,15 @@
+##Adding Expires Headers ##
+
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+ExpiresByType image/jpg "access plus 3 month"
+ExpiresByType image/jpeg "access plus 3 month"
+ExpiresByType image/gif "access plus 2 month"
+ExpiresByType image/png "access plus 2 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 4 month"
+ExpiresByType text/x-javascript "access plus 2 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType video/mp4 "access plus 1 year"
+
+##Adding  Expires Headers ##
