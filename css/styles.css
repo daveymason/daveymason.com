@@ -130,11 +130,16 @@
   border-radius: 50px;
   cursor: ew-resize;
   flex: 0.5;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   position: relative;
   -webkit-transition: all 700ms ease-in;
 }
 
+/* @media (max-width: 480px) {
+  .panel{
+  margin-left:none !important;
+  }
+} */
 .panel a {
   color: whitesmoke;
 }
@@ -174,6 +179,11 @@
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .panel.active p{
+    margin: 2% 0;
   }
 }
 
