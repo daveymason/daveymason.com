@@ -28,7 +28,7 @@
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
+  --bs-warning: #AF2C50;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
@@ -290,7 +290,7 @@ h1,
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #eb7500;
+  color: #af2c50;
 }
 
 h1,
@@ -3247,8 +3247,8 @@ fieldset:disabled .btn {
 }
 .btn-primary:hover {
   color: #000;
-  background-color: #c77556;
-  border-color: #c46d4c;
+  background-color: #ffffff;
+  border-color: #48c6ec;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
@@ -3401,14 +3401,14 @@ fieldset:disabled .btn {
 }
 
 .btn-warning {
-  color: #000;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  color: rgb(255, 255, 255);
+  background-color: #AF2C50;
+  border-color: #AF2C5007;
 }
 .btn-warning:hover {
   color: #000;
-  background-color: #ffca2c;
-  border-color: #ffc720;
+  background-color: #ffffff00;
+  border-color: #AF2C50;
 }
 .btn-check:focus + .btn-warning,
 .btn-warning:focus {

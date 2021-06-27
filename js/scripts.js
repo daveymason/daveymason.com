@@ -75,13 +75,13 @@ function removeActiveClasses(){
 const websites = [
     {
       id: 1,
-      title: "Terrific Taiyuan",
+      title: "Soba",
       img:
-        "./assets/img/TerrificTaiyuanResponsive.png",
+        "./assets/img/ResponsiveSoba.png",
       text:
-        "The go-to guide for English speakers living in, moving to or visiting Taiyuan city. This site lists and categorises bars, restaurants, services and highlights some of the best sightseeing locations in the city. It was important for the local businesses to have a presence on Google.",
+        "Asian fusion restaurant in Cork City, Ireland. The best and most authentic Asian street food restaurants outside of Asia. Despite using the best local produce the taste and unique flavors of Asia are ever-present and every dish is a delight for your taste buds.",
       link:
-        "https://terrifictaiyuan.com",
+        "https://soba.ie",
     },
     {
       id: 2,
@@ -89,7 +89,7 @@ const websites = [
       img:
         "./assets/img/GDCResponsive-1.png",
       text:
-        "Good Day Cork is a positive news subscription site with multiple subscriptions with letying levels of access. This site using the Strip payment gateway and allows the owner to easily access membership levels. Completely rebuilt from an old Wix site on Wordpress.",
+        "Good Day Cork is a positive news subscription site with multiple subscriptions with varying levels of access. This site using the Strip payment gateway and allows the owner to easily access membership levels. Completely rebuilt from an old Wix site on Wordpress.",
       link:
         "https://gooddaycork.ie",
     },
@@ -160,15 +160,7 @@ const websites = [
       currentItem = websites.length - 1;
     }
     showsite(currentItem);
-  });
-/*!
-* Start Bootstrap - Resume v7.0.0 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+  }); 
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -193,5 +185,4 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
