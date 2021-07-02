@@ -20,7 +20,7 @@ const websites = [
       id: 1,
       title: "Soba",
       img:
-        "./assets/img/ResponsiveSoba.png",
+        "./assets/img/ResponsiveSoba.jpg",
       text:
         "Asian fusion restaurant in Cork City, Ireland. The best and most authentic Asian street food restaurants outside of Asia. Despite using the best local produce the taste and unique flavors of Asia are ever-present and every dish is a delight for your taste buds.",
       link:
