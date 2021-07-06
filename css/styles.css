@@ -57,6 +57,17 @@
 }
 
 /* Davey */
+/* Badges */
+.bg-reactBlue {
+  background-color: #61DAFB;
+  font-size: 1.1rem !important;
+} 
+
+.bg-phPurple {
+  background-color: #7479B2;
+  font-size: 1.1rem !important;
+}
+
 /* Float Shadow */
 .hvr-float-shadow {
   display: inline-block;
