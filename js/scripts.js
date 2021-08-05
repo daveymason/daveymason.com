@@ -34,7 +34,7 @@ const websites = [
       text:
         "Good Day Cork is a positive news subscription site with multiple subscriptions with varying levels of access. This site using the Strip payment gateway and allows the owner to easily access membership levels. Completely rebuilt from an old Wix site on Wordpress.",
       link:
-        "https://gooddaycork.ie",
+        "https://gooddaycork.com",
     },
     {
       id: 3,
