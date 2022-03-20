@@ -6,6 +6,8 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
+import ServeCmt from './ServeCmt';
+
 export default function BasicTimeline() {
   return (
     <Timeline>
@@ -14,7 +16,7 @@ export default function BasicTimeline() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>Eat</TimelineContent>
+        <TimelineContent><ServeCmt /></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>

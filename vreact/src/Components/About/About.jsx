@@ -4,13 +4,9 @@ import Title from "./Title.jsx";
 import ProfileImage from "./ProfileImage.jsx";
 // import BasicTimeline from './BasicTimeline.jsx';
 
-import Avatar from "@mui/material/Avatar";
-import Stack from "@mui/material/Stack";
 import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
 
 import ParticlesBg from "particles-bg";
-
 
 export default function About() {
   return (
@@ -23,7 +19,7 @@ export default function About() {
       <ProfileImage />
       <Title />
       
-      <ParticlesBg num={42} type="circle" bg={true} />
+      <ParticlesBg color="white" num={42} type="cobweb" bg={true} />
 
     </Grid>
   );

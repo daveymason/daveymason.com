@@ -10,6 +10,10 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 import About from './About/About';
+import Experience from './Experience/Experience';
+import Code from './Code/Code';
+import Websites from './Websites/Websites';
+import Education from './Education/Education';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -61,9 +65,9 @@ export default function FullWidthTabs() {
       bgcolor: 'whitesmoke', 
       width: 1,
       boxShadow: 5,
-      minHeight: '100vh'
+      minHeight: '80vh'
       }}>
-      <AppBar position="static" sx={{ backgroundColor: '  #900C3F  ', boxShadow: 0, }}>
+      <AppBar position="static" sx={{ backgroundColor: '  #900C3F  ', boxShadow: 5 }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -71,9 +75,8 @@ export default function FullWidthTabs() {
           variant="fullWidth"
           aria-label="daveymason.com layout"
           centered
-          sx ={{ borderRadius: 1}}
         >
-          <Tab label="Home" {...a11yProps(0)} />
+          <Tab label="Home" {...a11yProps(0)}/>
           <Tab label="Experience" {...a11yProps(1)} />
           <Tab label="Education" {...a11yProps(2)} />
           <Tab label="Code" {...a11yProps(3)} />
@@ -90,16 +93,16 @@ export default function FullWidthTabs() {
           <About />
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
-          Experience
+          <Experience />
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Education
+          <Education />
         </TabPanel>
         <TabPanel value={value} index={3} dir={theme.direction}>
-          Code
+          <Code />
         </TabPanel>
         <TabPanel value={value} index={4} dir={theme.direction}>
-          Websites
+          <Websites />
         </TabPanel>
         <TabPanel value={value} index={5} dir={theme.direction}>
           Contact

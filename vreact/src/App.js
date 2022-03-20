@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import TabPanel from './Components/TabPanel';
 import LinksFooter from './Components/Footer/LinksFooter';
-import ParticlesBg from "particles-bg";
 
 import Grid from "@mui/material/Grid";
 
@@ -24,5 +23,3 @@ function App() {
 }
 
 export default App;
-
-<ParticlesBg type="random" bg={true}/>
