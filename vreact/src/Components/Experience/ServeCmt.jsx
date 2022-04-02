@@ -25,7 +25,7 @@ export default function ServeCmt() {
     <Grid
       container
       direction="column"
-      alignItems="flex-start"
+      alignItems="center"
       justifyContent="flex-start"
       className="greenText"
       xs={10}
@@ -40,20 +40,19 @@ export default function ServeCmt() {
             SERVE
           </a>
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" align="center">
           Redesign, optimise & maintain{" "}
           <a target="_blank" href="https://serve.ie">
             serve.ie
           </a>
-          . Implement pixel perfect UI from designers using built in{" "}
-          <b>Wordpress</b> tools, maintain and write custom <b>CSS</b> code and
-          help troubleshoot issues. Manage the <b>SEO</b>, <b>web security</b>,
+          . Implement pixel perfect UI from designers using {" "}
+          <b>Wordpress</b> tools, maintain and write custom <b>CSS</b> code. Manage the <b>SEO</b>, <b>web security</b>,
           <b>e-mails</b>, <b>domains</b> & <b>hosting</b>.
           <Divider
             variant="middle"
-            sx={{ backgroundColor: "#AF2C50 !important" }}
+            sx={{ backgroundColor: "#AF2C50 !important", mt: 1 }}
           />
-        </Typography>
+        </Typography >
 
         <div class="flex-shrink-0">
           <span class="text-primary">March 2021 - Present</span>

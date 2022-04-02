@@ -24,10 +24,11 @@ function TabPanel(props) {
       hidden={value !== index}
       id={`full-width-tabpanel-${index}`}
       aria-labelledby={`full-width-tab-${index}`}
+      sx={{ overflow: 'hidden'}}
       {...other}
     >
       {value === index && (
-        <Box sx={{ minHeight: '93.2vh', maxHeight: '90vh', bgcolor: "rgba(255, 255, 255, 0.42)" }}>
+        <Box sx={{ overflow: 'hidden', minHeight: '95vh', maxHeight: '95vh', bgcolor: "rgba(255, 255, 255, 0.42)" }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -64,8 +65,7 @@ export default function FullWidthTabs() {
     <Box sx={{ 
       bgcolor: 'whitesmoke', 
       width: 1,
-      boxShadow: 5,
-      minHeight: '80vh'
+
       }}>
       <AppBar position="static" sx={{ backgroundColor: '  #900C3F  ', boxShadow: 5 }}>
         <Tabs

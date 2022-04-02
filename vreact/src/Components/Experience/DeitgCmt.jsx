@@ -24,13 +24,13 @@ export default function DeitgCmt() {
     <Grid
       container
       direction="column"
-      alignItems="flex-start"
+      alignItems="center"
       justifyContent="flex-start"
       className="greenText"
       xs={10}
       sm={10}
       md={5}
-      sx={{ p: 1, my: 5 }}
+      sx={{ p: 1 }}
     >
       <ThemeProvider theme={theme}>
         <Typography variant="subtitle1">
@@ -39,14 +39,14 @@ export default function DeitgCmt() {
             DEITG
           </a>
         </Typography>
-        <Typography>
+        <Typography align="center">
           Designed, developed, deployed, tested, secured, maintained and updated
           50+ websites and web apps using <b>HTML</b>, <b>CSS</b>,{" "}
           <b>Javascript</b>, <b>jQuery</b>, <b>Php</b>,<b>MySQL</b>,{" "}
           <b>Bootstrap</b>, <b>Wordpress</b> & <b>CakePhp</b>.
           <Divider
             variant="middle"
-            sx={{ backgroundColor: "#AF2C50 !important" }}
+            sx={{ backgroundColor: "#AF2C50 !important", mt:1}}
           />
         </Typography>
 

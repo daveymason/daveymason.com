@@ -10,6 +10,7 @@ const theme = createTheme({
     subtitle1: {
       fontSize: 24,
       color: "black",
+      textAlign: "center",
       fontStyle: "oblique",
     },
     h1: {
@@ -19,38 +20,38 @@ const theme = createTheme({
   },
 });
 
-export default function FatheadCmt() {
+export default function NuCamp() {
   return (
     <Grid
       container
       direction="column"
-      alignItems="center"
+      alignItems="flex-start"
       justifyContent="flex-start"
       className="greenText"
       xs={10}
       sm={10}
-      md={5}
-      xl={5}
-      sx={{ p: 1 }}
+      md={3}
+      xl={3}
+      sx={{ p:2, pb:1, px:4, my: 3 }}
     >
       <ThemeProvider theme={theme}>
-        <Typography variant="subtitle1">
-          Web Developer |{" "}
-          <a target="_blank" href="https://fatheadsolutions.com">
-            Fat Head Solutions
-          </a>
+      <Typography variant="caption" gutterBottom>
+        <a target="_blank" rel="noreferrer" href="https://www.nucamp.co/bootcamp-overview/full-stack-web-mobile-development">
+            NuCamp
+          </a> | 2021
         </Typography>
-        <Typography align="center">
-          <b>Design Wordpress websites</b>, ensure the <b>speed</b> &{" "}
-          <b>security</b> of the sites, manage <b>domains</b> & <b>hosting</b>.
-          Troubleshot issues and add custom <b>CSS</b> where needed.{" "}
-          <Divider
-            variant="middle"
-            sx={{ backgroundColor: "#AF2C50 !important", mt: 1 }}
-          />
+        <Typography variant="subtitle1">
+          Full-Stack Bootcamp
         </Typography>
 
-        <Typography>October 2019 - Present</Typography>
+        <Typography variant="body1" >
+        <Divider
+            sx={{ backgroundColor: "#AF2C50 !important", textAlign: "center !important", mb:1}}
+          />
+          <Grid sx={{pl:2}}>
+        <li>Learned a new tech-stack and upskilled with React, React Native, Express, MongoDB and Node. </li>
+        </Grid>
+        </Typography>
       </ThemeProvider>
     </Grid>
   );

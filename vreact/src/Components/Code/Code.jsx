@@ -1,6 +1,9 @@
+import ChinaSpace from  './ChinaSpace';
+
 export default function Education() {
     return (
         <section class="resume-section ml-sm-0 pl-sm-0" id="code">
+            <ChinaSpace />
         <div class="resume-section-content pl-sm-0 ml-sm-0">
             <h2 class="mb-5">Code Projects</h2>
 

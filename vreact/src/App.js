@@ -8,17 +8,19 @@ import './fontawesome.css';
 
 function App() {
   return (
-    <div className="App">
+
       <Grid
+      className="App"
       container
       direction="column"
       alignItems="center"
+      sx={{ overflow: 'hidden', minHeight: '100vh', maxHeight: '95vh', bgcolor: "rgba(255, 255, 255, 0.42)" }}
     >
       <TabPanel />
       <LinksFooter />
       
       </Grid>
-    </div>
+  
   );
 }
 

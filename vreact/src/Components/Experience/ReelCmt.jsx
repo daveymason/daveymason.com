@@ -26,7 +26,7 @@ return(
 <Grid
       container
       direction="column"
-      alignItems="flex-start"
+      alignItems="center"
       justifyContent="flex-start"
       className="greenText"
       xs={10}
@@ -39,14 +39,14 @@ return(
         Web Developer | <a target="_blank" href="https://reelmetrics.com">ReelMetrics</a>
         </Typography>
         <div class="subheading mb-3"></div>
-        <Typography>
+        <Typography align="center">
         Lorem Ipsum Dollar Set Lumantae. Insert blurb here about current role. React, Ruby, Rails, Docker, Webpack, Aws, Kubernetes, TeamCity and the likes.
-        <Divider variant="middle" sx={{backgroundColor: '#AF2C50 !important'}}/>
+        <Divider variant="middle" sx={{backgroundColor: '#AF2C50 !important', mt: 1}}/>
         </Typography>
         
 
         <Typography>
-        March 2018 - October 2019
+        October 2021 - Present
         </Typography>
         
       </ThemeProvider>

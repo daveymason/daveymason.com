@@ -11,16 +11,14 @@ import ParticlesBg from "particles-bg";
 export default function About() {
   return (
     <Grid
-      container
-      direction="column"
-      justifyContent="center"
-      alignItems="center"
-    >
+  container
+  direction="column"
+  justifyContent="center"
+  alignItems="center"
+>
       <ProfileImage />
       <Title />
-      
       <ParticlesBg color="white" num={42} type="cobweb" bg={true} />
-
     </Grid>
   );
 }
