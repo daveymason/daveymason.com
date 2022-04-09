@@ -69,7 +69,7 @@
 }
 
 /* Float Shadow */
-.hvr-float-shadow {
+.-float-shadow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -246,7 +246,7 @@
 }
 .prev-btn,
 .next-btn {
-  color: #0505fc;
+  color: #C33237;
   font-size: 1.75rem;
   background: transparent;
   border-color: transparent;
@@ -256,7 +256,7 @@
 }
 .prev-btn:hover,
 .next-btn:hover {
-  color: hsl(205, 79%, 60%);
+  color: hsl(0, 0%, 40%);
 }
 
 /* Davey */
@@ -704,6 +704,8 @@ progress {
 .irish {
   font-size: 1.45rem;
   font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  color:#058d13
 }
 
 .display-1 {
@@ -11499,7 +11501,7 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 0rem;
   text-decoration: none;
-  border-bottom: 2px solid white !important;
+  border-bottom: 2px solid #C33237 !important;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
