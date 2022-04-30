@@ -68,6 +68,12 @@
   font-size: 1.1rem !important;
 }
 
+.bg-phaserBlue {
+  background-color: #BAECFE;
+  font-size: 1.1rem !important;
+  color: black !important;
+}
+
 /* Float Shadow */
 .-float-shadow {
   display: inline-block;
