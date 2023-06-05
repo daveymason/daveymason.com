@@ -713,6 +713,12 @@ progress {
   font-family: "Oswald", sans-serif;
   color:#058d13
 }
+.dutch {
+  font-size: 1.45rem;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  color: #ff9b00;
+}
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
