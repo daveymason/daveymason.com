@@ -1,0 +1,35 @@
+{
+  "name": "daveymason.com",
+  "version": "1.0.0",
+  "description": "Personal Portoflio Site built on Bootstrap using the resume starter theme from startbootstrap.com.",
+  "main": "index.html",
+"scripts": {
+  "scss": "node-sass -o css/ css/",
+  "start": "npm-run-all --parallel watch:scss serve",
+  "copyfonts": "copyfiles -f webfonts/* dist/webfonts",
+  "copyjs": "copyfiles -f js/**/* dist/js",
+  "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+  "clean": "rimraf dist",
+  "copyimages": "copyfiles -f assets/img/**/* dist/assets/img",
+  "copyassets": "npm run copyfonts && npm run copyimages && npm run copyjs",
+  "build": "npm run clean && npm run copyassets && npm run usemin",
+  "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+  "serve": "http-server ./dist"
+},
+  "author": "David Mason",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "http-server": "^14.1.1",
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "rimraf": "^6.0.1",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "fontawesome": "^5.6.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
