@@ -7,9 +7,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Badge from '@mui/material/Badge';
-import projectImage1 from '../assets/img/KinderSync.png';
+import projectImage1 from '../assets/img/daveyMasonData.jpg';
 import projectImage2 from '../assets/img/projectInvoice.png';
-import projectImage3 from '../assets/img/nightmareTales.png';
+import projectImage3 from '../assets/img/KinderSync.png';
 
 function Projects() {
   return (
@@ -33,21 +33,30 @@ function Projects() {
             />
             <CardContent>
               <Typography variant="h5" component="h5">
-                AI Lesson Planner
+                Sniff - Recon & Audits
               </Typography>
               <Typography variant="body1" sx={{ mb: 2 }}>
-                Built using <b>CSS</b> & <b>Php</b>, this <b>Wordpress Plugin</b> integrates with OPENAI's ChatGPT
-                to generate a custom lesson plan with auto translations to enhance communication.
+               A <b>Python</b> command-line tool for sniffing website information including SSL details, WHOIS information, security headers & more for iso27001 compliant reports.
               </Typography>
               <Button
                 variant="contained"
-                color="warning"
-                href="https://kindersync.com/ai-lesson-planner"
+                color="primary"
+                href="https://pypi.org/project/sniff-admanvoids/"
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{ mr: 1 }}
               >
-                Try it out
+                PyPi
+              </Button>
+              <Button
+                variant="contained"
+                color="warning"
+                href="https://github.com/daveymason/sniff"
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{ mr: 1 }}
+              >
+                Code
               </Button>
             </CardContent>
           </Card>
@@ -81,7 +90,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 sx={{ mr: 1 }}
               >
-                Visit
+                Devpost
               </Button>
               <Button
                 variant="contained"
@@ -110,20 +119,32 @@ function Projects() {
               alt="Nightmare Tales"
             />
             <CardContent>
-              <Typography variant="h5" component="h5">
-                Nightmare Tales
+             <Typography variant="h5" component="h5">
+                AI Lesson Planner
               </Typography>
               <Typography variant="body1" sx={{ mb: 2 }}>
-                A fun little game developed using <b>Unity</b>, utilizing <b>C#</b>. My role was to create a narrative, design the world, and implement the UI & "Game Feel". The "student feel" came naturally.
+                Built using <b>CSS</b> & <b>Php</b>, this <b>Wordpress Plugin</b> integrates with OPENAI's ChatGPT
+                to generate a custom lesson plan with auto translations to enhance communication.
               </Typography>
               <Button
                 variant="contained"
                 color="primary"
-                href="https://daveymason.com/assets/videos/NighmareTalesTrailer.mp4"
+                href="https://kindersync.com/ai-lesson-planner"
                 target="_blank"
                 rel="noopener noreferrer"
+                sx={{ mr: 1 }}
               >
-                Watch Game Trailer
+                Demo
+              </Button>
+              <Button
+                variant="contained"
+                color="warning"
+                href="https://github.com/daveymason/ai-lesson-planner"
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{ mr: 1 }}
+              >
+                Code
               </Button>
             </CardContent>
           </Card>
