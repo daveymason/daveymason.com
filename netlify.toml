@@ -8,6 +8,7 @@
 # Specify the Node.js version (optional, but recommended)
 [build.environment]
   NODE_VERSION = "18"
+  NPM_VERSION = "8.19.4"
 
 # Settings for Netlify Dev (optional)
 [dev]
