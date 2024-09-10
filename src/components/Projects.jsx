@@ -7,7 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Badge from '@mui/material/Badge';
-import projectImage1 from '../assets/img/daveyMasonData.jpg';
+import projectImage1 from '../assets/img/daveymasonData.jpg';
 import projectImage2 from '../assets/img/projectInvoice.png';
 import projectImage3 from '../assets/img/KinderSync.png';
 
