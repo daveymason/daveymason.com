@@ -10,12 +10,15 @@ import Badge from '@mui/material/Badge';
 import projectImage1 from '../assets/img/daveymasonData.jpg';
 import projectImage2 from '../assets/img/projectInvoice.png';
 import projectImage3 from '../assets/img/KinderSync.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+
 
 function Projects() {
   return (
     <Box component="section" id="code" sx={{ mt: 4, mb: 4 }}>
       <Typography variant="h4" component="h2" sx={{ mb: 5 }}>
-        Projects
+        <FontAwesomeIcon icon={faCode} className="styledIcon" /> Projects
       </Typography>
       <Grid container spacing={4}>
         <Grid item xs={12} md={4}>

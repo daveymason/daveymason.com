@@ -3,12 +3,14 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Divider from '@mui/material/Divider';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
 function Education() {
   return (
     <Box component="section" id="education" sx={{ mt: 4, mb: 4 }}>
       <Typography variant="h4" component="h2" sx={{ mb: 3 }}>
-        Education
+        <FontAwesomeIcon icon={faGraduationCap} className="styledIcon" /> Education
       </Typography>
 
       {/* Education Entries */}
@@ -17,7 +19,7 @@ function Education() {
           <Typography variant="h6">
             Georgia Institute of Technology 
             <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
-              {' | M.SC Computer Science '}
+              {' | M.Sc. Computer Science '}
             </Typography>
           </Typography>
           <Typography variant="body1" sx={{ mt: 1 }}>
@@ -68,8 +70,6 @@ function Education() {
           </Typography>
         </Grid>
       </Grid>
-
-      <Divider sx={{ my: 4 }} />
 
       <Grid container spacing={4} sx={{ mb: 3 }}>
         <Grid item xs={12} md={8}>

@@ -4,42 +4,53 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Contact from './components/Contact';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
+import './App.css';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#007bff',
+      main: '#2B3A4F',
     },
-    secondary: {
-      main: '#6c757d',
-    },
-    background: {
-      default: '#fff',
+    text: {
+      primary: '#2B3A4F',
     },
   },
   typography: {
-    fontFamily: 'Lato, sans-serif',
+    fontFamily: 'Roboto, sans-serif',
     h1: {
-      fontFamily: 'Oswald, sans-serif',
       fontSize: '2.5rem',
       fontWeight: 600,
       marginBottom: '1.5rem',
+      color: '#2B3A4F',
     },
     h2: {
-      fontFamily: 'Oswald, sans-serif',
       fontSize: '2rem',
       fontWeight: 600,
       marginBottom: '1.5rem',
+      color: '#2B3A4F',
     },
     h3: {
-      fontFamily: 'Oswald, sans-serif',
+      fontSize: '1.75rem',
+      fontWeight: 500,
+      color: '#2B3A4F',
+    },
+    h4: {
+      color: '#2B3A4F',
+    },
+    h5: {
+      color: '#2B3A4F',
+    },
+    h6: {
+      color: '#2B3A4F',
     },
     body1: {
+      fontSize: '1rem',
       color: '#6c757d',
     },
   },
@@ -59,6 +70,8 @@ function App() {
           <Experience />
           <Divider sx={{ my: 4 }} />
           <Education />
+          <Divider sx={{ my: 4 }} />
+          <Contact />
         </Container>
       </Box>
     </ThemeProvider>

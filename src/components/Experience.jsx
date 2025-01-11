@@ -3,15 +3,16 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 function Experience() {
   return (
     <Box component="section" id="experience" sx={{ mt: 4, mb: 4 }}>
       <Typography variant="h4" component="h2" sx={{ mb: 5 }}>
-        Experience
+        <FontAwesomeIcon icon={faBriefcase} className="styledIcon" /> Experience
       </Typography>
 
-      {/* Experience Entries */}
       <Grid container spacing={4} sx={{ mb: 3 }}>
         <Grid item xs={12} md={8}>
           <Typography variant="h6" component="h3">
