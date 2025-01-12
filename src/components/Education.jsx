@@ -71,7 +71,7 @@ function Education() {
         </Grid>
       </Grid>
 
-      <Grid container spacing={4} sx={{ mb: 3 }}>
+      {/* <Grid container spacing={4} sx={{ mb: 3 }}>
         <Grid item xs={12} md={8}>
           <Typography variant="h6">
             NuCamp
@@ -107,7 +107,7 @@ function Education() {
             March 2019 - September 2019
           </Typography>
         </Grid>
-      </Grid>
+      </Grid> */}
     </Box>
   );
 }

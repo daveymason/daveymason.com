@@ -11,7 +11,7 @@ const Contact = () => {
         <FontAwesomeIcon icon={faEnvelope} className="styledIcon" /> Contact
       </Typography>
       <Typography variant="body1">
-        You can reach me at: <a href="mailto:daveymason@outlook.com"> daveymason@outlook.com</a>
+        Reach me at: <a href="mailto:daveymason@outlook.com"> daveymason@outlook.com</a>
       </Typography>
     </Box>
   );

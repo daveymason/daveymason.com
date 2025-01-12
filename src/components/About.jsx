@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Divider from '@mui/material/Divider';
 import daveyImage from '../assets/img/LinkedinSelfie.jpg';
 
 const iconStyle = {
