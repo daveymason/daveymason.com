@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
 import daveyImage from '../assets/img/davey.jpg';
 
 const iconStyle = {
@@ -27,6 +28,7 @@ function About() {
 
       {/* Right side for 3D model */}
       <Box sx={{ width: '66%', paddingRight: 3 }}>
+        <Card sx={{ p: 3, height: '100%' }}>
         <Typography variant="h1" component="h1" sx={{ mb: 3 }}>
           React Developer | UX Engineer  
         </Typography>
@@ -57,6 +59,7 @@ function About() {
           <i className="fab fa-docker" title="Docker" style={iconStyle}></i>
           <i className="fab fa-aws" title="AWS" style={iconStyle}></i>
         </Box>
+        </Card>
       </Box>
     </Box>
   );

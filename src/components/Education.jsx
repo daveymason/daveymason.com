@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Divider from '@mui/material/Divider';
+import Card from '@mui/material/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
@@ -14,62 +14,62 @@ function Education() {
       </Typography>
 
       {/* Education Entries */}
-      <Grid container spacing={4} sx={{ mb: 3 }}>
-        <Grid item xs={12} md={8}>
-          <Typography variant="h6">
-            Georgia Institute of Technology 
-            <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
-              {' | M.Sc. Computer Science '}
-            </Typography>
-          </Typography>
-          <Typography variant="body1" sx={{ mt: 1 }}>
-            Part-time specializing in <b>Human Computer Interaction</b>, with classes in Game Design, Educational Technology, and Design. For SEO purposes, built projects in <b>C#, React, Javascript & Php</b>.
-          </Typography>
-        </Grid>
-        <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
-          <Typography variant="body2" sx={{ color: 'primary.main' }}>
-            September 2022 - Current
-          </Typography>
-        </Grid>
+      <Card sx={{ p: 3, mb: 2 }}>
+      <Grid container spacing={4} sx={{ mb: 2, pb: 2, borderBottom: '1px solid #e0e0e0' }}>
+      <Grid item xs={12} md={8}>
+      <Typography variant="h6">
+      Georgia Institute of Technology
+      <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
+      {' | M.Sc. Computer Science'}
+      </Typography>
+      </Typography>
+      <Typography variant="body1" sx={{ mt: 1 }}>
+      Focused on user-centered design, with coursework in game design, educational technology, health informatics (FHIR), and cybersecurity.      </Typography>
+      </Grid>
+      <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
+      <Typography variant="body2" sx={{ color: 'primary.main' }}>
+      September 2022 - Current
+      </Typography>
+      </Grid>
+      </Grid>
+      <Grid container spacing={4} sx={{ mb: 2, pb: 2, borderBottom: '1px solid #e0e0e0' }}>
+      <Grid item xs={12} md={8}>
+      <Typography variant="h6">
+      Dublin Institute of Technology
+      <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
+      {' | B.Sc. Digital Technology & Design'}
+      </Typography>
+      </Typography>
+      <Typography variant="body1" sx={{ mt: 1 }}>
+      Intense 12-month degree covering HTML, CSS, Javascript, Php, SQL, jQuery, Bootstrap, Codeigniter, Wordpress, Angular, Phonegap, as well as UX/UI & Concept Design.
+      </Typography>
+      </Grid>
+      <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
+      <Typography variant="body2" sx={{ color: 'primary.main' }}>
+      March 2018 - March 2019
+      </Typography>
+      </Grid>
       </Grid>
 
-      <Grid container spacing={4} sx={{ mb: 3 }}>
-        <Grid item xs={12} md={8}>
-          <Typography variant="h6">
-            Dublin Institute of Technology
-            <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
-              {' | B.Sc. Digital Technology & Design'}
-            </Typography>
-          </Typography>
-          <Typography variant="body1" sx={{ mt: 1 }}>
-            Intense 12-month degree covering <b>HTML, CSS, Javascript, Php, SQL, jQuery, Bootstrap, Codeigniter, Wordpress, Angular, Phonegap</b>, as well as <b>UX/UI & Concept Design</b>.
-          </Typography>
-        </Grid>
-        <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
-          <Typography variant="body2" sx={{ color: 'primary.main' }}>
-            March 2018 - March 2019
-          </Typography>
-        </Grid>
+      <Grid container spacing={4} sx={{ mb: 0 }}>
+      <Grid item xs={12} md={8}>
+      <Typography variant="h6">
+      Cork Institute of Technology
+      <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
+      {' | B.Sc. Applied Physics & Instrumentation'}
+      </Typography>
+      </Typography>
+      <Typography variant="body1" sx={{ mt: 1 }}>
+      Math, Physics, Engineering, and Computer Science. Practical topics covered included Matlab, Vb.net, Ladder logic programming with PLCs, Automation, Networking, Digital instrumentation, Visual programming with Labview & Astrophysics.
+      </Typography>
       </Grid>
-
-      <Grid container spacing={4} sx={{ mb: 3 }}>
-        <Grid item xs={12} md={8}>
-          <Typography variant="h6">
-            Cork Institute of Technology
-            <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
-              {' | B.Sc. Applied Physics & Instrumentation'}
-            </Typography>
-          </Typography>
-          <Typography variant="body1" sx={{ mt: 1 }}>
-            Math, Physics, Engineering, and Computer Science. Practical topics covered included <b>Matlab, Vb.net, Ladder logic programming with PLCs, Automation, Networking, Digital instrumentation, Visual programming with Labview & Astrophysics</b>.
-          </Typography>
-        </Grid>
-        <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
-          <Typography variant="body2" sx={{ color: 'primary.main' }}>
-            September 2010 - May 2014
-          </Typography>
-        </Grid>
+      <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
+      <Typography variant="body2" sx={{ color: 'primary.main' }}>
+      September 2010 - May 2014
+      </Typography>
       </Grid>
+      </Grid>
+      </Card>
 
       {/* <Grid container spacing={4} sx={{ mb: 3 }}>
         <Grid item xs={12} md={8}>

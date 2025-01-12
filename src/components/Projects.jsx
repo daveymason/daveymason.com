@@ -39,7 +39,7 @@ function Projects() {
                 Sniff - Recon & Audits
               </Typography>
               <Typography variant="body1" sx={{ mb: 2 }}>
-               A <b>Python</b> command-line tool for sniffing website information including SSL details, WHOIS information, security headers & more for iso27001 compliant reports.
+               A <b>Python</b> command-line tool for sniffing website information including SSL details, WHOIS information, security headers & more for auto generated compliant reports. 
               </Typography>
               <Button
                 variant="contained"
