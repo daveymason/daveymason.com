@@ -87,7 +87,7 @@ function Experience() {
               <Grid container spacing={2}>
                 <Grid item xs={8}>
                   <Typography variant="h6" component="h3">
-                    Co-Founder & Tech Lead
+                    Co-Founder & Technologist
                     <Typography component="span" sx={{ color: 'text.secondary', fontSize: '0.9em' }}>
                       {' | '}
                       <Link href="https://fatheadsolutions.com" target="_blank" rel="noopener noreferrer" sx={{ textDecoration: 'none', color: 'primary.main' }}>
@@ -99,7 +99,7 @@ function Experience() {
                 </Grid>
                 <Grid item xs={4} sx={{ textAlign: 'right' }}>
                   <Typography variant="body2" sx={{ color: 'primary.main' }}>
-                    2019 - 2021
+                    2019 - 2023
                   </Typography>
                 </Grid>
               </Grid>

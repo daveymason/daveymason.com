@@ -24,7 +24,7 @@ function Education() {
       </Typography>
       </Typography>
       <Typography variant="body1" sx={{ mt: 1 }}>
-      Focused on user-centered design, with coursework in game design, educational technology, health informatics (FHIR), and cybersecurity.      </Typography>
+      Focused on user-centered design, with coursework in game design, educational technology, health informatics (FHIR), and cybersecurity utilizing Javascript, Python, Java, C# & Php.     </Typography>
       </Grid>
       <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>
       <Typography variant="body2" sx={{ color: 'primary.main' }}>
@@ -60,7 +60,7 @@ function Education() {
       </Typography>
       </Typography>
       <Typography variant="body1" sx={{ mt: 1 }}>
-      Math, Physics, Engineering, and Computer Science. Practical topics covered included Matlab, Vb.net, Ladder logic programming with PLCs, Automation, Networking, Digital instrumentation, Visual programming with Labview & Astrophysics.
+      Math, Physics, Engineering, and Computer Science. Practical topics covered included Matlab, Vb.net, Ladder logic programming with PLCs, Automation, Networks, Visual programming with Labview & Astrophysics.
       </Typography>
       </Grid>
       <Grid item xs={12} md={4} sx={{ textAlign: 'right' }}>

@@ -30,7 +30,7 @@ function About() {
       <Box sx={{ width: '66%', paddingRight: 3 }}>
         <Card sx={{ p: 3, height: '100%' }}>
         <Typography variant="h1" component="h1" sx={{ mb: 3 }}>
-          React Developer | UX Engineer  
+          UX Engineer | AI Integration Specialist
         </Typography>
 
         <Typography variant="h6" sx={{ mb: 1 }}>
